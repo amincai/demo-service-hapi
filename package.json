@@ -1,0 +1,27 @@
+{
+  "name": "demo-service-hapi",
+  "version": "1.0.0",
+  "description": "Restful API Service for Demo using Node.js, hapi etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "service",
+    "node.js",
+    "express",
+    "body-parser"
+  ],
+  "author": "@caiyaming",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "hapi": "^17.5.2",
+    "joi": "^13.4.0",
+    "mongoose": "^5.1.7"
+  }
+}
