@@ -53,6 +53,8 @@ async function api(){
      * - config.mongo.URI = 'mongodb://localhost/rest_hapi'; (local db, default)
      */
     //config.mongo.URI = 'mongodb://localhost/rest_hapi'
+ 
+     config.embedAssociations = false;
 
       await server.register({
         plugin: RestHapi,
