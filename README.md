@@ -1,5 +1,11 @@
 # demo-service-hapi
 
+#preprare
+
+npm install -g nodemon 
+
+npm i
+
 # node version update
 please update node to 8.x
 
